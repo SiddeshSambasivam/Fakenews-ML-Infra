@@ -12,7 +12,6 @@ from flask_cors import CORS
 # local imports 
 from utils.cache_data import cache
 from utils.tokenizer import tokenize_inputs
-from model.model import get_model
 
 app = Flask(__name__)
 port = int(os.environ.get("PORT", 5000))
